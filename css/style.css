@@ -1,0 +1,109 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: #C6CCD1;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #030C09;
+  min-width: 768px;
+}
+h1 {
+  font-size: 32px;
+}
+.logo{float:left; /*border: 1px solid black;*/ }
+.logo img {height:100px;}
+.nav li {display: inline-block; /*border: 1px solid black;*/ margin: 3%; float: right;}
+.nav a {color:#FBFBF6;}
+.clear {clear: both}
+.header {text-align: center;}
+.subheader {/*border: 1px solid black;*/ margin-top: 0%; text-align: center; color: white; }
+.basicinfo {width:30%; margin: auto; text-align:center; margin-top:80px; color:black;}
+.basicinfo a {color:#000000;}
+.homepagetop {padding-top: 2%; width:80%; margin: auto; /*border: 1px dashed red;*/display: flex;}
+.homepagebottom {padding-top: 2%; width:80%; margin: auto; /*border: 1px dashed red;*/display: flex;}
+.homepage mini {}
+.mini {border: 1px solid #FBFBF6; width: 25%; margin:auto; background-color: #060C0A; color:#FBFBF6; padding: 2%; text-align: center;}
+.minibottom {border: 1px solid #FBFBF6; width: 25%; margin:auto; background-color: #060C0A; color:#FBFBF6; padding: 2%; text-align: center;}
+.mini a {color:#FBFBF6;}
+.minibottom a {color:#FBFBF6;}
+.mini a:hover {color: #DE3453;}
+.minibottom a:hover {color: #DE3453;}
+.mini img {width: 100%; height: 80px;}
+.minibottom img {width: 100%; height: 80px;}
+.footer {text-align: center; border: 1px solid black; width: 50%; margin:auto; margin-top:10%;}
+
+.reviewmain {
+  padding-top: 20%;
+  width: 30%;
+  margin: auto;
+  word-spacing: 0.07em;
+  letter-spacing: 0.03em;
+}
+
+.brett {
+  text-align: center;
+  font-family: "Merriweather", serif;
+   margin-top: 176px;
+   color: white; 
+   /*white font so it can be read on dark image*/
+   
+}
+
+.about {
+  height: 100%;
+    width: 100%;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.box {
+  border: 1px black solid;
+    width: 30.7%;
+    margin-bottom: 20px;
+    margin-left: 7px;
+    margin-right: 7px;
+    height: 410px;
+    padding-left: 10px;
+    color: black;
+}
+.avatar img {
+  height: 50%;
+  width: 50%;
+  max-height: 200px;
+  max-width: 150px;
+}
+
+.brett h1 {
+  font-family: "Merriweather", serif;
+  font-size: 44px;
+  text-align: center;
+}
+
+.box h2 {
+  font-family: "Merriweather", serif;
+  font-size: 33px;
+}
+
+.brett h3 {
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+}
+
+.box p {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+}
+
+.black {
+  color: black;
+  margin-top: 105px;
+}
+
+.pitch {
+  color: black;
+  margin-top: 85px;
+}
