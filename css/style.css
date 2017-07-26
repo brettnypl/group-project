@@ -13,6 +13,7 @@ body {
 }
 h1 {
   font-size: 32px;
+  font-family: "Open Sans", sans-serif;
 }
 .logo{float:left; /*border: 1px solid black;*/ }
 .logo img {height:100px;}
@@ -20,8 +21,9 @@ h1 {
 .nav a {color:#FBFBF6;}
 .clear {clear: both}
 .header {text-align: center;}
-.subheader {/*border: 1px solid black;*/ margin-top: 0%; text-align: center; color: white; }
-.basicinfo {width:30%; margin: auto; text-align:center; margin-top:80px; color:black;}
+.subheader {/*border: 1px solid black;*/ margin-top: 0%; text-align: center; color: #FFFFFF; }
+.basicinfo {width:30%; margin: auto; text-align:center; margin-top:80px;}
+.basicinfo p {color: #000000;}
 .basicinfo a {color:#000000;}
 .homepagetop {padding-top: 2%; width:80%; margin: auto; /*border: 1px dashed red;*/display: flex;}
 .homepagebottom {padding-top: 2%; width:80%; margin: auto; /*border: 1px dashed red;*/display: flex;}
@@ -34,7 +36,8 @@ h1 {
 .minibottom a:hover {color: #DE3453;}
 .mini img {width: 100%; height: 80px;}
 .minibottom img {width: 100%; height: 80px;}
-.footer {text-align: center; border: 1px solid black; width: 50%; margin:auto; margin-top:10%;}
+.footer {text-align: center; border: 1px solid #00000; width: 50%; margin:auto; margin-top:10%;}
+.footer img {width:26px; height:26px}
 
 .reviewmain {
   padding-top: 20%;
@@ -46,9 +49,8 @@ h1 {
 
 .brett {
   text-align: center;
-  font-family: "Merriweather", serif;
    margin-top: 176px;
-   color: white; 
+   color: #FFFFFF; 
    /*white font so it can be read on dark image*/
    
 }
@@ -61,14 +63,14 @@ h1 {
     margin-top: 50px;
 }
 .box {
-  border: 1px black solid;
+  border: 1px #00000 solid;
     width: 30.7%;
     margin-bottom: 20px;
     margin-left: 7px;
     margin-right: 7px;
     height: 410px;
     padding-left: 10px;
-    color: black;
+    color: #000000;
 }
 .avatar img {
   height: 50%;
@@ -77,33 +79,30 @@ h1 {
   max-width: 150px;
 }
 
-.brett h1 {
+/*.brett h1 {
   font-family: "Merriweather", serif;
   font-size: 44px;
   text-align: center;
-}
+}*/
 
 .box h2 {
-  font-family: "Merriweather", serif;
   font-size: 33px;
 }
 
 .brett h3 {
-  font-family: "Merriweather", serif;
   font-size: 24px;
 }
 
 .box p {
-  font-family: "Merriweather", serif;
   font-size: 16px;
 }
 
 .black {
-  color: black;
+  color: #000000;
   margin-top: 105px;
 }
 
 .pitch {
-  color: black;
+  color: #000000;
   margin-top: 85px;
 }
